@@ -1,0 +1,92 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.logo {
+  padding: 5px 15px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  position: relative;
+}
+
+.search input {
+  width: 180px;
+  border-radius: 8px;
+  padding: 5px 15px
+}
+
+.search input::placeholder {
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+  background: linear-gradient(to rigth, white, gray);
+  border-color: transparent;
+
+}
+
+.search img {
+  position: absolute;
+  width: 15px;
+  left: 30%;
+  top: 22%;
+}
+
+.menu img {
+  text-align: center;
+  padding: 5px 15px;
+}
+
+.story-img img {
+  border: solid 2px transparent;
+  border-radius: 38px;
+  background: linear-gradient(to right, red, orange);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.story-img {
+  position: absolute;
+  left: 22%;
+  top: 15%;
+}
+
+.story-nomes {
+  position: absolute;
+  left: 22%;
+  top: 25%;
+}
+
+.story-nomes span {
+  padding: 5px;
+}
+
+.post-nome img {
+  border: solid 2px transparent;
+  border-radius: 38px;
+  background: linear-gradient(to right, red, orange);
+}
+
+.story-post img {
+  position: absolute;
+  left: 2%;
+  top: 33%;
+}
+
+.post-nome span {
+  position: absolute;
+  left: 8%;
+  top: 37%;
+}
+
+.post-photo {
+  position: absolute;
+  left: 1%;
+  top: 45%;
+}
