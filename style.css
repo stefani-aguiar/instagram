@@ -1,3 +1,8 @@
+body {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -43,28 +48,45 @@ header {
   padding: 5px 15px;
 }
 
-.story-img img {
+.stories {
+  display: flex;
+  padding: 20px 50px;
+}
+
+.stories .story {
+  padding: 0 5px;
+}
+
+.stories .story img {
+  display: block;
   border: solid 2px transparent;
   border-radius: 38px;
   background: linear-gradient(to right, red, orange);
-  margin-left: 10px;
-  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
 }
 
-.story-img {
-  position: absolute;
-  left: 22%;
-  top: 15%;
+.stories .story span {
+  display: block;
+  text-align: center;
+  font-size: 12px;
 }
 
-.story-nomes {
-  position: absolute;
-  left: 22%;
-  top: 25%;
+.story-post {
+  padding: 0 30px;
 }
 
-.story-nomes span {
-  padding: 5px;
+.story-post .post-nome {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.story-post .post-nome span {
+  margin-left: 15px;
 }
 
 .post-nome img {
@@ -73,20 +95,8 @@ header {
   background: linear-gradient(to right, red, orange);
 }
 
-.story-post img {
+.post-description .post-emoji-session-2 img {
   position: absolute;
-  left: 2%;
-  top: 33%;
-}
-
-.post-nome span {
-  position: absolute;
-  left: 8%;
-  top: 37%;
-}
-
-.post-photo {
-  position: absolute;
-  left: 1%;
-  top: 45%;
+  left: 45%;
+  top: 876px;
 }
