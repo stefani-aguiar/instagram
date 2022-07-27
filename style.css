@@ -95,8 +95,18 @@ header {
   background: linear-gradient(to right, red, orange);
 }
 
-.post-description .post-emoji-session-2 img {
+.post-description .post-emoji .post-emoji-session-1 {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 12px;
+}
+
+.post-description .post-emoji .post-emoji-session-2 {
   position: absolute;
   left: 45%;
-  top: 876px;
+  top: 877px;
+}
+
+.post-main-description .Sessão-4 img {
+  display: flex;
 }
