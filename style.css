@@ -48,6 +48,17 @@ header {
   padding: 5px 15px;
 }
 
+.menu-friends .sessao-1 {
+  display: flex;
+  margin-right: -200px;
+}
+
+.menu-friends .sessao-1 p {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
 .stories {
   display: flex;
   padding: 20px 50px;
@@ -169,6 +180,7 @@ header {
   display: flex;
   justify-content: end;
 }
+
 .post-comment .sessao-2 span {
   margin-top: -35px;
   color: rgb(179, 212, 240);
